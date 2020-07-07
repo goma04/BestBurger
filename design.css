@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+#title{
+   font-family: "Modak";
+   color: red;
+   font-weight: 200;
+   font-size: 72px;
+   text-align: center;
+   margin: 0px;
+}
+
+#titleDesign {
+   background-color: darkkhaki;
+   margin-top: 0px;
+   margin-left: 20px;
+   margin-right: 20px; 
+}
+
+table, th, td {
+   border: 1px solid black;
+ }
+
+#mainMenu {
+  background-color: lightblue;
+border: 10px;
+   }
+
+
+
+html{
+   background-color: rgb(233,233,233);
+}

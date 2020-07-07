@@ -8,14 +8,21 @@
    font-size: 72px;
    text-align: center;
    margin: 0px;
+  
 }
 
 #titleDesign {
-   background-color: darkkhaki;
+   background-color: rgb(5, 223, 168);
    margin-top: 0px;
-   margin-left: 20px;
-   margin-right: 20px;
+  
    text-decoration: solid; 
+
+
+   margin-right: 10%;
+   margin-left: 10%;
+   width: 80%;
+   height: 120px;
+   box-shadow: 6px 10px 10px rgb(100, 97, 59); /* x irány, y irány, milyen széles, szín*/
 }
 
 .menu{
@@ -24,39 +31,64 @@
 
 #mainMenu {
    background-color: lightblue;
-   border:  1px solid black;
-   background-color: #4CAF50;
-   color: white;
-
-   width: 80%;
-   text-align: center;
    margin-left: 10%;
-   margin-right: 10%;
-   font-family: "Noto Sans";
-   font-size: large;
-   font-weight: bold;
-   
+   margin-right: 15%;
+   border: 10p;
+   width: 80%;
+   text-align-last: center;
+   height: 70px;
+   box-shadow: 6px 10px 10px rgb(100, 97, 59); /* x irány, y irány, milyen széles, szín*/
+
 }
 
+.mainName{
+   font-size: 60px;
+   text-align: left;
+   padding: 20px;
+  text-decoration-line: underline; 
+}
+.mainNameLeft{
+   font-size: 60px;
+   text-align: right;
+   padding: 20px;
+  text-decoration-line: underline; 
+}
+
+tr:nth-child(even) {background-color: rgb(243, 162, 13);}
+
+
+.content {
+   margin-left: 10%;
+   margin-right: 10%;
+   width: 80%;
+   height: 450px;
+   background-color: lightcoral;
+   font-family: "Modak";
+   font-size: 23px;
+   font-weight: 100;
+   box-shadow: 6px 10px 10px rgb(100,97,59);
+   text-align-last: center;
+
+}
+
+
 a:link {
-   color: green;
-   background-color: transparent;
-   text-decoration: none;
- }
- 
- a:visited {
-   color: green;
-   background-color: transparent;
-   text-decoration: none;
- }
- a:hover {
-   color: red;
-   background-color: blue;
-   text-decoration: underline;
-   font-size: 20px;
+   font-family:  "Modak";
+   font-size: 30px;
+   font-weight: lighter;
+   text-decoration: chartreuse;
  }
  
 
+ a:hover {
+   font-family:  "Modak";
+   font-size: 30px;
+   font-weight: lighter;
+   background-color: rgb(112, 201, 204);
+ }
+
+
+
 html{
-   background-color: rgb(233,233,233);
+   background-color: rgb(199, 212, 230);
 }
